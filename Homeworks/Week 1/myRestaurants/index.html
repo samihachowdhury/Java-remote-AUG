@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+        <title>Favorite Restaurants</title>
+
+        <style>
+
+        img{
+
+            height: 200px;
+        }
+
+        </style>
+    
+    </head>
+
+    <body>
+
+        <a href="#">
+
+        <h1>Favorite Restaurants </h1> </a>
+
+        <p> Here are some places that I <em>love</em> eating at! </p>
+
+        <h2>Top 5 Favorites</h2>
+
+        <!--Ordered List-->
+        <ol>
+            <li>Oasis Mediterranean Cuisine</li>
+            <li>Wasabi Korean & Japanese Restaurant</li>
+            <li>Sagar Restaurant</li>
+            <li>Forks Mediterranean Deli</li>
+            <li>My Kitchen</li>
+        </ol>
+
+               <!--Anchor tag-->
+        <ul>
+
+            <li>
+                <a href="https://www.oasiscuisine.com/" target="_blank">Oasis</a>
+                <img src="oasis.jpeg">
+            
+            </li> 
+
+            <li>
+                <a href="https://wasabikoreanjapanese.com/" target="_blank">Wasabi</a>
+                <img src="wasabi.jpeg">
+
+            </li>
+
+            <li>
+                <a href="https://sagarfood.com/" target="_blank">Sagar</a>
+                <img src="sagar.jpeg">
+
+            </li>
+
+            <li>
+                <a href="http://forksmediterraneandeli.com/" target="_blank">Forks</a>
+                <img src="forks.jpeg">
+
+            </li>
+
+            <li>
+                <a href="my_kitchen.html">My Kitchen</a>
+                <img src="walnut.jpeg">
+            
+            </li>
+    
+        </ul>
+
+        <!--Table-->
+        <table>
+
+            <tr>
+                <th>Name</th>
+                <th>Location</th>
+            </tr>
+
+            <tr>
+
+                    <td>Oasis Mediterranean Cuisine</td>
+                    <td>Warren, Michigan</td>
+
+
+             </tr>
+
+            <tr>
+                    <td>Wasabi Korean & Japanese Restaurant</td>
+                    <td>Detroit, Michigan</td>
+              
+
+            </tr>
+
+            <tr>
+
+                    <td>Sagar Restaurant</td>
+                    <td>Queens, New York</td>
+              
+            </tr>
+
+            <tr>
+
+                    <td>Forks Mediterranean Deli </td>
+                    <td>Easton, Pennsylvania</td>
+              
+            </tr>
+
+            <tr>
+                    <td>My Kitchen</td>
+                    <td>Detroit, Michigan</td>
+
+            </tr>
+
+            <br>
+
+        </table>
+
+        <br>
+
+        <!--Forms-->
+
+        <h2>Which location would you like to visit?</h2>
+
+        <form>
+
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name" />
+
+            <p> Select all that apply</p>
+            <label for="Warren">Warren, MI: </label>
+            <input type="checkbox" id="Warren" name="Warren" />
+
+            <label for="Detroit">Detroit, MI: </label>
+            <input type="checkbox" id="Detroit" name="Detroit" />
+
+            <label for="Queens">Queens, NY:</label>
+            <input type="checkbox" id="Queens" name="Queens" />
+
+            <label for="Easton">Easton, PA:</label>
+            <input type="checkbox" id="Easton" name="Easton" />
+
+            <br>
+            <br>
+
+            <label for="type" >What is your favorite type of cuisine?</label>
+            <select id="type" name="type">
+
+                <option value="Mediterranean">Mediterranean</option>
+                <option value="Japanese">Japanese</option>
+                <option value="Korean">Korean</option>
+                <option value="Chinese">Chinese</option>
+
+            </select>
+
+            <br>
+            <br>
+
+            <h2>Contact</h2>
+            <p>Please fill in your information down below 
+            and we will take in consider your favorite places!</p>
+
+            <label for="yourname">Name</label>
+            <input type="text" id="yourname" name="yourname" />
+
+            <br>
+            <br>
+
+            <label for="email">Email Address:</label>
+            <input type="text"id="email" name="email" />
+
+            <br>
+            <br>
+
+            <label for="comment">Comment:</label>
+
+            <textarea id="comment" name="comment" rows="7" cols="50" >
+
+            </textarea>
+
+            <br>
+            <br>
+
+            <input type="submit" value="Submit Form" />
+
+        </form>
+
+
+
+    </body>
+</html>
