@@ -1,0 +1,139 @@
+/* DRY:
+do not 
+repeat 
+yourself */
+
+
+
+#second_div {
+
+    color:white;
+}
+.class_div {
+
+    text-align: justify; 
+    color: orange;
+}
+
+/* unvisited */ 
+a:link {
+
+    color: mediumblue;
+ 
+}
+/* visited */
+a:visited{
+    color: aquamarine;
+}
+
+a:hover{
+    color: yellowgreen;
+}
+
+a:active{
+    color:darkmagenta;
+}
+
+.big_text {
+    font-weight:bold;
+    font-size: 48px;
+    color: yellow;
+    padding: 16px;
+}
+/* targeting all the divs that have a "p" tag inside of them */
+/* div p {
+    background-color: firebrick;
+} */
+
+/* targets the divs and the "p" tags */
+div, .big_text {
+    background-color: rgb(222, 140, 102);
+    margin: 0px auto;
+    padding: 2px;
+}
+
+/* .big_text {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+} */
+
+div {
+    padding: 50px 30px 50px 80px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+p.dotted{
+    border-style:dotted;
+}
+
+p.dashed{
+    border-style:dashed;
+}
+
+p.solid{
+    border-style: solid;
+}
+
+.standard{
+    border: 5px dashed burlywood;
+    margin: 50px 30px 50px 80px;
+
+}
+
+.double{
+    border: 24px double white;
+}
+
+p {
+    font-family: 'Helvetica';
+}
+
+.border_stuff{
+    border-radius: 35% 35% 35% 35%;
+    background-color:chartreuse;
+    width: 100px;
+    height: 200px;
+    margin: 25px;
+    
+}
+
+.static_div {
+    position: static;
+    border: 3px solid rgb(205, 123, 85);
+}
+.relative_div {
+    position: relative;
+    left: 30px;
+    border: 3px solid rgb(155, 155, 28);
+}
+
+.absolute_div {
+    position: absolute;
+    top: 80px;
+    right: 0px;
+    width: 200px;
+    height: 150px;
+    border: 3px double rgb(33, 147, 182);
+}
+
+.fixed_div{
+    position: fixed;
+    bottom: 0;
+    left: 30px;
+    right: 0;
+    width: 300px;
+    border: 3px solid rgba(169, 42, 118, 0.867); 
+
+}
+
+.sticky_div {
+    position: sticky;
+    top: 0;
+    height: 500px;
+    background-color: ;
+    border: 3px solid #4caf; 
+}
+
