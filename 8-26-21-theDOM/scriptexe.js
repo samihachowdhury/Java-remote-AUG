@@ -1,16 +1,17 @@
 //Laziness is your friend...
+
 let q = document.querySelector.bind(document)
 // let div = document.querySelector.bind('div')
-let qa = document.querySelectorAll.bind(document);
+let qa = document.querySelectorAll.bind(document)
 
-console.log(div)
+
 
 // Get the header element
 let first = q('header');
 // Get all the section elements
-let second = qa('section');
+let second = qa('section')
 // Get the section element with class="current"
-let three = q('section.current');
+let three = q('section.current')
 // document.getElementsByClassName('current')
 // Get the section that comes after the current section
 let four = q('section.current').nextElementSibling
@@ -24,4 +25,4 @@ let seven = Array.from(qa('section h2')).map(function(el){
     return el.parentElement
 })
 
-console.log(seven)
+console.log(five)
