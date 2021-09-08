@@ -9,6 +9,13 @@ public class Main {
           String name = "Samiha";
           System.out.println(name.toLowerCase());
 
+//         char 44 test;
+//         // not a statement //
+//          int $AmountBill;
+
+          // Illegal start of expression //
+//        String void;
+
 //        String num = "2334736";
 //        System.out.println(num);
 
@@ -35,14 +42,17 @@ public class Main {
 //
 //        System.out.println(lose);
 
+//
+//      Variables are already defined;
+
 //        int pepsi, fanta, sprite;
 //
 //        int pepsi;
 //        int fanta;
 //        int sprite;
-
+//
 //        int pepsi=0, fanta=0, sprite =0;
-
+//
 //        int pepsi = 0;
 //        int fanta = 0;
 //        int sprite = 0;
